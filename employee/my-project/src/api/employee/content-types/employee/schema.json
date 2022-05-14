@@ -1,0 +1,101 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employees",
+  "info": {
+    "singularName": "employee",
+    "pluralName": "employees",
+    "displayName": "employee",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "fatherName": {
+      "type": "string"
+    },
+    "DOB": {
+      "type": "date"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female"
+      ]
+    },
+    "maritalStatus": {
+      "type": "enumeration",
+      "enum": [
+        "married ",
+        "unmarried",
+        "single",
+        "divorced"
+      ]
+    },
+    "identificationMark": {
+      "type": "string"
+    },
+    "bloodGroup": {
+      "type": "string"
+    },
+    "presentAdress": {
+      "type": "text"
+    },
+    "permanentAdress": {
+      "type": "text"
+    },
+    "phoneNo": {
+      "type": "biginteger"
+    },
+    "mobileNumber": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "email"
+    },
+    "emergencyContact": {
+      "type": "biginteger"
+    },
+    "initialDesignation": {
+      "type": "string"
+    },
+    "department": {
+      "type": "enumeration",
+      "enum": [
+        "Patient Care",
+        "Content Managment",
+        "Human Resource",
+        "Managment",
+        "IT"
+      ]
+    },
+    "dateOfAppointment": {
+      "type": "date"
+    },
+    "dateOfJoining": {
+      "type": "date"
+    },
+    "JobType": {
+      "type": "enumeration",
+      "enum": [
+        "Full TIme",
+        "Part Time"
+      ]
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
